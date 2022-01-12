@@ -1,0 +1,19 @@
+server.port: 8080
+spring:
+  batch:
+    job:
+      enabled: false
+flare.base:
+  daata-base:
+    jdbc-url:
+    username:
+    password:
+    database-platform:
+    driver-class-name:
+
+  department-resource:
+    name:
+    type:
+  employee-resource:
+    name:
+    type:

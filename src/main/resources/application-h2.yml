@@ -1,0 +1,15 @@
+
+flare.base:
+  dataSource:
+    jdbc-url: jdbc:h2:mem:sfmsdb
+    username: sa
+    password:
+    database-platform: org.hibernate.dialect.H2Dialect
+    driverClassName: org.h2.Driver
+
+  department-resource:
+    name: department-file.csv
+    type: file
+  employee-resource:
+    name: employee-file.csv
+    type: file
